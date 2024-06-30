@@ -17,7 +17,7 @@ import torch
 """LOADING MY SPAM EMAIL CLASSIFICATION MODEL"""
 
 from tensorflow.keras.models import load_model
-loaded_model = load_model("./spam email classification/spam_email_classification_model.h5")
+loaded_model = load_model("./spam_email_classification_model.h5")
 
 # Load BERT tokenizer and model
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
